@@ -33,9 +33,9 @@ public:
         add_test({"test name 2", "given input", "expected output"});
         ...
     } 
-}
+};
 
-int main() {
+int main(int argc, char *argv[]) {
     day1 solution;
     return solution.execute(argc, argv);
 }
